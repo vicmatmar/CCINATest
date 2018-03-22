@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Centralite.CurrentSensor;
-using FTD2XX_NET;
 
+using FTD2XX_NET;
+using CINALib;
 
 namespace CCINATest
 {
@@ -37,6 +37,7 @@ namespace CCINATest
 
                         FTI2C currentController = new FTI2C();
                         currentController.Init(i);
+
                         Cina219 cina = new Cina219(currentController);
                         foreach (var currentTesterAddress in currentTesterAddresses)
                         {
