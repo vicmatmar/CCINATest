@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Centralite.CurrentSensor">
+      <HintPath>..\..\..\..\..\Source\Repos\PROTST\internal-common\Centralite.CurrentSensor\bin\Debug\Centralite.CurrentSensor.dll</HintPath>
+    </Reference>
+    <Reference Include="FTD2XX_NET">
+      <HintPath>..\..\..\..\..\Source\Repos\i2ctest\CINA219\RefFiles\FTD2XX_NET.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
